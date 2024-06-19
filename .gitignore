@@ -1,0 +1,34 @@
+*.pt
+*.pth
+*.png
+models/path.py
+log/*.log
+*.pyc
+*.out
+*.npy
+*.json
+*.pyc
+_pycache_
+*.jpg
+*.pkl
+*.bak
+models/pytorch_ssim/*
+*.3types
+*pth.copy
+*.test3seg
+*.pth.test3seg
+*.pth.train8seg
+*.pkl.bak
+*.xlsx
+*.png
+*.pdf
+*.h5py
+*.zip
+# *.mat
+# *.tif
+model_zoo/*
+*.rar
+*.h5
+datasets/*
+data/datasets/*
+results/*

@@ -1,0 +1,46 @@
+PSNR,SSIM,shotname,slice,Methods,key
+32.2,90.26,motion_paried_IXI425-IOP-0988-T1.nii,0,Corrupted,Linear
+30.67,89.68,motion_paried_IXI425-IOP-0988-T1.nii,1,Corrupted,Linear
+30.76,89.94,motion_paried_IXI425-IOP-0988-T1.nii,2,Corrupted,Linear
+29.45,89.57,motion_paried_IXI425-IOP-0988-T1.nii,3,Corrupted,Linear
+29.27,89.53,motion_paried_IXI425-IOP-0988-T1.nii,4,MARC,Linear
+28.6,89.24,motion_paried_IXI425-IOP-0988-T1.nii,5,MARC,Linear
+27.55,88.66,motion_paried_IXI425-IOP-0988-T1.nii,6,MARC,Linear
+27.01,88.31,motion_paried_IXI425-IOP-0988-T1.nii,7,CycleGAN,Linear
+25.81,87.48,motion_paried_IXI425-IOP-0988-T1.nii,8,CycleGAN,Linear
+25.81,87.39,motion_paried_IXI425-IOP-0988-T1.nii,9,CycleGAN,Linear
+24.29,85.75,motion_paried_IXI425-IOP-0988-T1.nii,10,BSA,Linear
+25.09,86.75,motion_paried_IXI425-IOP-0988-T1.nii,11,BSA,Linear
+26.07,87.63,motion_paried_IXI425-IOP-0988-T1.nii,12,BSA,Linear
+25.93,87.39,motion_paried_IXI425-IOP-0988-T1.nii,13,BSA,Linear
+25.33,86.84,motion_paried_IXI425-IOP-0988-T1.nii,14,Ours,Linear
+25.37,86.68,motion_paried_IXI425-IOP-0988-T1.nii,15,Ours,Linear
+25.85,86.98,motion_paried_IXI425-IOP-0988-T1.nii,16,Ours,Linear
+32.2,90.26,motion_paried_IXI425-IOP-0988-T1.nii,0,Corrupted,Nonlinear
+30.67,89.68,motion_paried_IXI425-IOP-0988-T1.nii,1,Corrupted,Nonlinear
+30.76,89.94,motion_paried_IXI425-IOP-0988-T1.nii,2,Corrupted,Nonlinear
+29.45,89.57,motion_paried_IXI425-IOP-0988-T1.nii,3,Corrupted,Nonlinear
+29.27,89.53,motion_paried_IXI425-IOP-0988-T1.nii,4,MARC,Nonlinear
+28.6,89.24,motion_paried_IXI425-IOP-0988-T1.nii,5,MARC,Nonlinear
+27.55,88.66,motion_paried_IXI425-IOP-0988-T1.nii,6,MARC,Nonlinear
+27.01,88.31,motion_paried_IXI425-IOP-0988-T1.nii,7,CycleGAN,Nonlinear
+25.81,87.48,motion_paried_IXI425-IOP-0988-T1.nii,8,CycleGAN,Nonlinear
+25.81,87.39,motion_paried_IXI425-IOP-0988-T1.nii,9,CycleGAN,Nonlinear
+24.29,85.75,motion_paried_IXI425-IOP-0988-T1.nii,10,BSA,Nonlinear
+25.09,86.75,motion_paried_IXI425-IOP-0988-T1.nii,11,BSA,Nonlinear
+26.07,87.63,motion_paried_IXI425-IOP-0988-T1.nii,12,BSA,Nonlinear
+25.93,87.39,motion_paried_IXI425-IOP-0988-T1.nii,13,BSA,Nonlinear
+25.33,86.84,motion_paried_IXI425-IOP-0988-T1.nii,14,Ours,Nonlinear
+25.37,86.68,motion_paried_IXI425-IOP-0988-T1.nii,15,Ours,Nonlinear
+25.85,86.98,motion_paried_IXI425-IOP-0988-T1.nii,16,Ours,Nonlinear
+
+I want to using pandas to generate results like below:
+I dont need 'PSNR' and 'SSIM ' colume name, and can you write it in function
+
+        , Linear, Nonlinear
+Methods, PSNR/SSIM,PSNR/SSIM
+Corrupted, PSNR/SSIM,PSNR/SSIM
+MARC, PSNR/SSIM,PSNR/SSIM
+CycleGAN, PSNR/SSIM,PSNR/SSIM
+BSA, PSNR/SSIM,PSNR/SSIM
+Ours, PSNR/SSIM,PSNR/SSIM
