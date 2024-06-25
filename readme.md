@@ -66,14 +66,14 @@ IXI_T1_motion
 └── ixi_t1_sudden_moderate
 ```
 
-place the `exp1` (parameter files) in:
+create a `model_zoo` folder: `mkdir model_zoo`, place the `exp1` (parameter files) in:
 ```
 ├── model_zoo
 └──└── exp1
 ```
 ### 5. Training
 
-Please see [training/demo.sh](training/demo.sh) for an example of how to train EIP.
+Please see [training/demo.sh](training/demo_new.sh) for an example of how to train EIP.
 
 ### 6. Testing
 

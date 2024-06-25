@@ -29,6 +29,8 @@ models/pytorch_ssim/*
 model_zoo/*
 *.rar
 *.h5
-datasets/*
+*.gz
+*.json
+# data/datasets/OASI1_MRB/*
 data/datasets/*
 results/*
